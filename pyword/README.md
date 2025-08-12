@@ -1,4 +1,4 @@
-# PyWord — a tiny Wordle-like terminal game (Python)
+# PyWord — a tiny Wordle-like terminal game (written in Python)
 
 Guess a hidden **5-letter word** in **6 tries** right in your terminal. No external libraries. Quick to read, easy to hack.
 
