@@ -1,0 +1,57 @@
+course_id,title,dept,level,credits,prerequisites,is_core
+SUT-22015,Calculus I,MATH,100,4,,1
+SUT-22016,Calculus II,MATH,100,4,SUT-22015,1
+SUT-22034,Differential Equations,MATH,200,3,SUT-22016,1
+SUT-24011,Physics I,PHYS,100,3,,1
+SUT-24012,Physics II,PHYS,100,3,SUT-24011,1
+SUT-24002,Physics II Lab,PHYS,100,1,SUT-24012,1
+SUT-33018,General Workshop,ENGR,100,1,,1
+SUT-40153,Programming Fundamentals,CS,100,3,,1
+SUT-40181,Engineering Probability & Statistics,STAT,200,3,SUT-22015,1
+SUT-40108,Computer Workshop,CS,100,1,,1
+SUT-40115,Discrete Structures,CS,200,3,,1
+SUT-40244,Advanced Programming,CS,200,3,SUT-40153,1
+SUT-40212,Logic Circuits,CS,200,3,,1
+SUT-40206,Logic Circuits Lab,CS,200,1,SUT-40212,1
+SUT-40254,Data Structures and Algorithms,CS,200,3,SUT-40115|SUT-40244,1
+SUT-40124,Electrical & Electronic Circuits Fundamentals,EE,200,3,SUT-24012,1
+SUT-40126,Computer Organization & Assembly Language,CS,200,3,SUT-40153|SUT-40212,1
+SUT-40211,Technical English for Computing,CS,200,2,,1
+SUT-40223,Digital Systems Design,CS,300,3,SUT-40126,1
+SUT-40203,Digital Systems Design Lab,CS,300,1,SUT-40206|SUT-40223,1
+SUT-40323,Computer Architecture,CS,300,3,SUT-40126,1
+SUT-40103,Computer Architecture Lab,CS,300,1,SUT-40323|SUT-40206,1
+SUT-40415,Automata & Formal Languages,CS,300,3,SUT-40254,1
+SUT-40417,Artificial Intelligence,CS,300,3,SUT-40254|SUT-40181,1
+SUT-40282,Linear Algebra,MATH,200,3,SUT-22016,1
+SUT-40221,Scientific & Technical Presentation,CS,300,2,SUT-40211,1
+SUT-40384,Database Design,CS,300,3,SUT-40254,1
+SUT-40424,Operating Systems,CS,300,3,SUT-40323,1
+SUT-40408,Operating Systems Lab,CS,300,1,SUT-40424,0
+SUT-40418,Systems Analysis & Design,CS,300,3,SUT-40221|SUT-40384,0
+SUT-40443,Computer Networks,CS,300,3,SUT-40181|SUT-40424,0
+SUT-40416,Computer Networks Lab,CS,300,1,SUT-40443,0
+SUT-40441,Data & Network Security,CS,400,3,SUT-40443,0
+SUT-40450,Industrial Internship,CS,0,0,SUT-40221,0
+SUT-40760,Capstone Project,CS,400,3,SUT-40221,0
+SUT-40215,Numerical Methods,CS,300,3,SUT-22034,0
+SUT-40242,Signals & Systems,EE,300,3,SUT-40124,0
+SUT-40324,Advanced Information Retrieval,CS,400,3,SUT-40254,0
+SUT-40353,VLSI Design,CS,400,3,SUT-40223|SUT-40124,0
+SUT-40354,Algorithm Design,CS,400,3,SUT-40254,0
+SUT-40414,Compiler Design,CS,400,3,SUT-40254,0
+SUT-40419,Web Programming,CS,300,3,SUT-40244,0
+SUT-40432,Multicore Computing,CS,400,3,SUT-40244|SUT-40323,0
+SUT-40453,Real-Time Systems,CS,400,3,SUT-40424,0
+SUT-40462,Embedded Systems,CS,400,3,SUT-40323,0
+SUT-40474,Software Engineering,CS,300,3,SUT-40418,0
+SUT-40484,Object-Oriented Design,CS,300,3,SUT-40418,0
+SUT-40634,Computer Simulation,CS,400,3,SUT-40181,0
+SUT-40717,Machine Learning,CS,400,3,SUT-40181|SUT-40282,0
+SUT-40447,Computer Graphics,CS,400,3,SUT-40354,0
+SUT-40429,Mobile Programming,CS,300,3,SUT-40244,0
+SUT-40342,Multimedia Systems,CS,400,3,SUT-40242,0
+SUT-40343,Data Transmission,CS,400,3,SUT-40242,0
+SUT-40412,Advanced Logic Circuits,CS,400,3,SUT-40212,0
+SUT-40428,IT Project Management,CS,400,3,SUT-40418,0
+SUT-40828,Software Testing,CS,400,3,SUT-40418,0
